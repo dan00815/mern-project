@@ -1,5 +1,5 @@
 import axios from "axios";
-const API = "http://localhost:8080/api/courses";
+const API = "https://mern-server-dbab.onrender.com/api/courses";
 
 //Course是要受到jwt保護的Route，所以都要設定token
 class CourseService {

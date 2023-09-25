@@ -1,5 +1,5 @@
 import axios from "axios";
-const API = "http://localhost:8080/api/user";
+const API = "https://mern-server-dbab.onrender.com/api/user";
 
 class AuthService {
   register(username, email, password, role) {
